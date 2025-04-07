@@ -11,9 +11,6 @@ public class HelloWorldController {
 		return "hello";
 	}
 
-	@GetMapping("/messages")
-	public String getMessage() {
-		return "Tum_to_Achi_Hoti";
-	}
+	
 
 }
